@@ -1,0 +1,53 @@
+form div {
+    margin-top: 5px;
+}
+
+form input[type=text], form input[type=password], form textarea {
+    padding: 5px;
+    border: 1px solid grey;
+    width: 250px;
+    background: #f1f1f1;
+}
+form input[type=text]:hover,form textarea:hover {
+    background: #e1e1e1;
+}
+form input[type=text].TruongBatbuoc, form input[type=password].TruongBatbuoc { 
+    background-color: #27ebeb;
+}
+
+
+/* khi dua con tro chuot den truongbb se co mau khac */
+
+form input[type=password]:hover,
+form input[type=text].TruongBatbuoc:hover {
+    background-color: #1bc7c7;
+}
+
+form input[type=button] {
+    padding: 10px;
+    background: #1c72b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type=button]:hover {
+    background: #0b7dda;
+}
+
+form label.HangMoi {
+    float: left;
+    width: 120px;
+}
+
+form span.Baoloi {
+    color: #ff0000;
+}
+
+form br {
+    clear: both;
+}
+
+.nodisplay {
+    display: none;
+}
